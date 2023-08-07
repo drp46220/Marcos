@@ -1,3 +1,3 @@
 Opens Visual Studio Code throught the set file path.
 
-Set files path in 'file_path'
+Set file's path in 'file_path'
