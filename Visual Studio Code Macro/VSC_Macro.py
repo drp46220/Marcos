@@ -1,11 +1,11 @@
-#open visual studio code through macro
-import subprocess
+#open visual studio code through macro on mac
+import os
 
 #define the filepath here
 file_path = '/Users/prince/Downloads/Visual Studio Code.app'
 
 def openVSC(): #open in new window
-    subprocess.Popen(file_path, '-new-tab')
+    os.system("open -a" + file_path)
 
 #main
 if __name__ == '__main__':

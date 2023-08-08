@@ -1,12 +1,16 @@
-#open music player through macro
-import subprocess
+#open music player through macro on mac
+
+import os
 
 #define the filepath here
-file_path = '/Applications/Spotify.app'
+file_path = "/Applications/Spotify.app"
 
 def openAudio(): #open in new window
-    subprocess.open(file_path)
+    os.system("open -a" + file_path)
 
 #main
 if __name__ == '__main__':
-    openAudio()
+    try:
+        openAudio()
+    except:
+        print("file's path not found")
