@@ -1,5 +1,4 @@
 #open music player through macro on mac
-
 import os
 
 #define the filepath here
@@ -13,4 +12,4 @@ if __name__ == '__main__':
     try:
         openAudio()
     except:
-        print("file's path not found")
+        print("Failed to open")
