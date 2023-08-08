@@ -1,8 +1,9 @@
-from tkinter import *
+import tkinter
 from tkinter import ttk
+from tkinter import *
 
 def ScreenTest():
-    root = TK()
+    root = tkinter()
     Frame = ttk.Frame(root, padding=5)
     Frame.grid()
     ttk.Label(Frame, text="test text").grid(column=0, row=1)

@@ -14,5 +14,8 @@ def openMail(): #open mail in new window
 
 #main
 if __name__ == '__main__':
-    openDiscord()
-    openMail()
+    try:
+        openDiscord()
+        openMail()
+    except:
+        print("Failed to open")

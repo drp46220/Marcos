@@ -9,4 +9,7 @@ def openVSC(): #open in new window
 
 #main
 if __name__ == '__main__':
-    openVSC()
+    try:
+        openVSC()
+    except:
+        print("Failed to open")
