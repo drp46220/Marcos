@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "pip": "^0.0.1",
-    "tkinter": "^0.0.2-security"
+    "tk": "^0.1.2"
   }
 }
