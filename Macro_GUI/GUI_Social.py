@@ -10,9 +10,7 @@ class Object:
 
 #main
 if __name__ == '__main__':
-    #make 2 different objects:
     D = Object #D- discord obj
-    M = Object #M- mail obj
     try:
         D.openDiscord() #call openDiscord
     except:
